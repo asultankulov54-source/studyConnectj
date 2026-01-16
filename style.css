@@ -1,0 +1,263 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+header {
+  background: #4a6cf7;
+  color: white;
+  padding: 40px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: white;
+  color: #4a6cf7;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin: 20px;
+  font-size: 16px;
+}
+
+.group-card {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 15px;
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+header {
+  background: #4a6cf7;
+  color: white;
+  padding: 40px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: white;
+  color: #4a6cf7;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin: 20px;
+  font-size: 16px;
+}
+
+.group-card {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 15px;
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in;
+}
+
+/* АНИМАЦИЯ ЗАГРУЗКИ */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #4a6cf7, #6a5cff);
+    color: white;
+    padding: 50px 20px;
+}
+
+/* КНОПКА */
+.btn, button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 26px;
+    background: white;
+    color: #4a6cf7;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover, button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    animation: slideUp 0.6s ease forwards;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* КАРТОЧКИ ГРУПП */
+.group-card {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    animation: slideUp 0.5s ease forwards;
+    transition: transform 0.3s ease;
+}
+
+.group-card:hover {
+    transform: scale(1.03);
+}
+
+/* INPUT */
+input {
+    padding: 12px;
+    width: 80%;
+    max-width: 420px;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(74,108,247,0.5);
+}
+
+/* KEYFRAMES */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}#42445Aheader {
+    background: linear-gradient(135deg, #4a6cf7, #6a5cff);
+    color: white;
+
+    min-height: 70vh;          /* ← ГЛАВНОЕ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* центр по вертикали */
+    align-items: center;       /* центр по горизонтали */
+
+    padding: 40px 20px;
+    text-align: center;
+}
+   
+@media (max-width: 600px) {
+    header,
+    .features,
+    #groups {
+        max-width: 95%;
+    }
+} 
